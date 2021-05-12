@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <html lang="en" >
+        <head bgcolor=#272727>
+            <meta charset="UTF-8">
+            <title>registeredpage</title>
+            <link rel="stylesheet" type="text/css" href="../static/css/registered.css"/>
+            <script src="https://kit.fontawesome.com/bded3f13bd.js" crossorigin="anonymous"></script>
+            <script type="text/javascript" src="../static/js/registered.js"></script>
+        </head>
+        <body bgcolor=#272727>
+            <form  action="add.php" method="post">
+                <p>
+                    <label class="label_input">
+                        username :
+                    </label>
+                    <input type="text" id="username" class="text_field" placeholder="enter username">
+                </p>
+                <p>
+                    <label class="label_input">
+                        gmail :
+                    </label>
+                    <input type="text" id="mail" placeholder="enter gmail" class="text_field" onblur="Email(this.value)"></p>
+                <p>
+                    <label class="label_input">
+                        password :
+                    </label>  
+                    <label  id="psw_invisible"> 
+                        <input type="password" id="input_invisible" class="text_field" placeholder="enter password" onblur="Pwd()"/> 
+                        <img class="eye" id="visible" onclick="showPsw()" src="../static/image/openeye.png">
+                    </label>  
+                    <label id="psw_visible" style="display: none;">
+                        <input type="text" id="input_visible" class="text_field" placeholder="enter password" onblur="Pwd()"/>  
+                        <img class=eye id="invisible" onclick="hidePsw()" src="../static/image/closeeye.png">
+                    </label>
+                </p>
+                <p>
+                    <label class="label_input">
+                        confirm :
+                    </label> 
+                    <input type="password" id="pwcheck" class="text_field"  id="confirm" placeholder="confirm password"/> 
+                </p>
+            </form>
+                    <input type="button" value="registered" id="registered" onclick="registered();"/>
+        </body>
+        <script type="text/javascript" src="../static/js/password.js"></script>
+    </html>

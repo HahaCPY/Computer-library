@@ -1,0 +1,130 @@
+form p > * {
+        display: inline-block;
+        vertical-align: middle; }
+
+.logo{
+        font-family: "Permanent Marker";
+        font-size: 50px;
+        text-shadow: 1px 1px 20px blue;
+        color: white;
+        position:absolute;
+        width: 200px;
+        height: 145px;
+        margin-left: 545px;
+        margin-top: 65px;
+        z-index: -1; }
+
+.label_input {
+        position:absolute;
+        font-size: 20px;
+        font-family:  monospace;
+        width: 145px;
+        height: 32px;
+        line-height: 28px;
+        text-align: center;
+        color: #000000;
+        background-color: #3BD9FF;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        margin-left: 465px;
+        margin-top: 200px; }
+
+.label_input2 {
+        position:absolute;
+        font-size: 20px;
+        font-family:  monospace;
+        width: 145px;
+        height: 32px;
+        line-height: 28px;
+        text-align: center;
+        color: #000000;
+        background-color: #3BD9FF;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        margin-left: 465px;
+        margin-top: 50px;
+    }
+.text_field {
+        width: 165px;
+        height: 30px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border: 0;
+        margin-left: 610px;
+        margin-top: 200px;
+    }
+.input_block {
+        width: 165px;
+        height: 30px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border: 0;
+        margin-left: 610px;
+        margin-top: 50px;
+    }
+#btn_login {
+        font-size: 30px;
+        font-family:  monospace;
+        width: 120px;
+        height: 40px;
+        line-height: 28px;
+        text-align: center;
+        color: #ffff;
+        background-color: #3BD9FF;
+        border-radius: 6px;
+        border: 0;
+        float: left;
+        position:absolute;
+        margin-left: 545px;
+        margin-top: 50px;
+    }
+#unregistered {
+        font-size: 14px;
+        color: rgb(238, 255, 83);
+        text-decoration: none;
+        position:absolute;
+        margin-top: 130px;
+        left:100px;
+        animation-name:haha;
+        animation-duration: 20s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+#forget_pwd {
+        font-size: 12px;
+        color: white;
+        text-decoration: none;
+        position:absolute;
+        margin-top: 180px;
+        left:1px;
+        animation-name:haha;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+@keyframes haha{
+        from{
+            left:0%;
+        }
+        to{
+            left:93%;
+        }
+    }
+#forget_pwd:hover {
+        color: #0000;
+        text-decoration: underline;
+    }
+#login_control {
+        padding: 0 28px;
+    }
+    input:focus {
+        outline: none;
+     }
+.eye{
+        position:absolute;
+        margin-top: 48px;
+        width: 47px;
+        height: 34px;
+    }

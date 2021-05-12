@@ -1,0 +1,39 @@
+.lan{
+    font-family: "Permanent Marker";
+    font-size: 20px;
+    background-color:lightyellow;
+    color:black;
+    border: 2px;
+    vertical-align: inherit;
+    text-align:center;
+    width: 100%;
+    height: 9%;
+}
+.la{
+    font-family: "Permanent Marker";
+    font-size: 20px;
+    background-color:lightgoldenrodyellow;
+    color:black;
+    border: 2px;
+    vertical-align: inherit;
+    text-align:center;
+    width: 100%;
+    height: 9%;
+}
+.la:hover,.lan:hover{
+    font-family: "Permanent Marker";
+    font-size: 20px;
+    background-color:black;
+    color:rgb(255, 255, 255);
+    border: 2px;
+    vertical-align: inherit;
+    text-align:center;
+    width: 100%;
+    height: 9%;
+}
+.left{
+    position:absolute;
+    margin-top: 4.8%;
+    width: 20%;
+    height: 90%;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head bgcolor=#272727>
+    <meta charset="UTF-8">
+    <title>Login page</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/login.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bded3f13bd.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../static/js/login.js"></script>
+</head>
+<body bgcolor=#272727>
+    <form method="post" action="login.php">
+        <p> 
+            <a class="logo">Library</a>
+            <label class="label_input">
+                username :
+            </label>
+            <input type="text" id="username" class="text_field" placeholder=" Username"/>
+        </p>
+        <p>
+            <label class="label_input2">
+                password :
+            </label>        
+            <label  id="psw_invisible"> 
+                <input type="password" id="input_invisible" class="input_block" placeholder=" Password"/> 
+                <img class="eye" id="visible" onclick="showPsw()" src="../static/image/openeye.png">
+            </label>  
+            <label id="psw_visible" style="display: none;">
+                <input type="text" id="input_visible" class="input_block" placeholder=" Password"/>  
+                <img class="eye" id="invisible" onclick="hidePsw()" src="../static/image/closeeye.png">
+            </label>
+            <a href=”javascript:password();”></a>
+        </p>
+        <div id="login_control">
+            <input type="button" id="btn_login" value="Login" onclick="login();"/>
+            <a id="forget_pwd" href="forget_pwd.html">forget password ?</a>
+        </div>
+        <a href="registered.html" id=unregistered>_unregistered_</a>
+    </form>
+</body>
+<script type="text/javascript" src="../static/js/password.js"></script>
+</html>
